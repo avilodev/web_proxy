@@ -1,0 +1,3 @@
+./myserver 9090 0 serv0_folder
+./myserver 9091 0 serv1_folder
+./myserver 9092 0 serv2_folder

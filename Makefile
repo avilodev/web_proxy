@@ -5,10 +5,10 @@ LDFLAGS = $(shell pkg-config --libs openssl)
 SRC_DIR = src
 BIN_DIR = bin
 
-SRC = $(SRC_DIR)/myproxy.c
-HEADER = $(SRC_DIR)/myproxy.h
-OBJ = $(SRC_DIR)/myproxy.o
-EXECUTABLE = $(BIN_DIR)/myproxy
+SRC = $(SRC_DIR)/proxy.c
+HEADER = $(SRC_DIR)/proxy.h
+OBJ = $(SRC_DIR)/proxy.o
+EXECUTABLE = $(BIN_DIR)/proxy
 
 $(shell mkdir -p $(BIN_DIR))
 
